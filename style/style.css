@@ -1,6 +1,4 @@
-@media screen and (max-width: 479px) {
-    /* phone styles */
-        * {box-sizing: border-box;}
+* {box-sizing: border-box;}
 
         header{
             
@@ -132,4 +130,4 @@
           .btn-wrap{
               text-align: center;
           }
-    }
+
