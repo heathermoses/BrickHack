@@ -58,6 +58,27 @@
   margin-right: 20px;
 }
 
+.btn-option {
+  border-radius: 10px;
+  height: 30px;
+  border: 2px solid black;
+  background-color: transparent;
+  text-align: start;
+  line-height: 1px;
+  font-weight: bold;
+  padding: 30px;
+  vertical-align: middle;
+  margin-top: 15px;
+  width:75%;
+}
+
+.btn-option > span {
+  font-size: 10px;
+  font-weight: 100;
+  text-align: start;
+  line-height: 5px;
+}
+
 .btn {
   position: absolute;
   border-radius: 10px;
