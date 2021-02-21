@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 /* Global Css classes */
-.background-1{
+.background-1 {
   display: block;
   background-color: black;
   position: relative;
@@ -11,19 +11,19 @@
   margin: 0px;
 }
 
-.margins{
+.margins {
   margin: 30px;
 }
 
-.font-1{
+.font-1 {
   font-family: "Roboto", sans-serif;
 }
 
-.font-2{
+.font-2 {
   font-family: "Whitney", sans-serif;
 }
 
-.textbox{
+.textbox {
   border-radius: 10px;
   border: 1px solid black;
   padding-top: 5px;
@@ -32,14 +32,12 @@
   height: 30px;
 }
 
-.btn-next{
-  position: absolute;
-  bottom: 3%;
-  left: 82%;
+.btn-next {
+  
   border-radius: 10px;
   height: 30px;
   border: none;
-  background-color: #FAA634;
+  background-color: #faa634;
   text-align: center;
   line-height: 5px;
   font-weight: bold;
@@ -47,20 +45,43 @@
   vertical-align: middle;
 }
 
-.btn{
+.btn-prev {
+  border-radius: 10px;
+  height: 30px;
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+  line-height: 5px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.btn {
   position: absolute;
   border-radius: 10px;
   height: 30px;
   border: none;
-  background-color: #FAA634;
+  background-color: #faa634;
   text-align: center;
   line-height: 5px;
   font-weight: bold;
   padding: 20px 30px 20px 30px;
   vertical-align: middle;
-  left:35%;
+  left: 35%;
 }
-.center{
+.middle{
+  position: absolute;
+  bottom: 3%;
+  left: 82%;
+}
+.right{
+  position: absolute;
+  bottom: 3%;
+  left: 82%;
+}
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -195,46 +216,67 @@ em > button {
   font-weight: bold;
 }
 
+.signin-btn{
+  border-radius: 5%;
+  margin-top: 5px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 15px 50px 15px 50px;
+  border: none;
+  background-color: transparent;
+  vertical-align: middle;
+  font-family: "Whitney", sans-serif;
+  font-weight: bold;
+}
+
 .btn-wrap {
   text-align: center;
+  display: block;
 }
 
-.recipes{
-    padding: 5% 0 50% 0;
-    margin: 0 30px 0 30px;
+.recipes {
+  padding: 5% 0 50% 0;
+  margin: 0 30px 0 30px;
 }
 
-.sitemap{
-    margin: 30px;
-    display: block;
+.sitemap {
+  margin: 30px;
+  display: block;
 }
 .sitemap > a {
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding-top: 7px;
-    margin-left: 45px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding-top: 7px;
+  margin-left: 45px;
 }
-.sitemap > a:hover{
-    color: lightgray;
+.sitemap > a:hover {
+  color: lightgray;
 }
 
-.social-links{
-    display: inline-block;
-    list-style-type: none;
-    font-size: 25px;
-    margin-left: 40px;
+.social-links {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 25px;
+  margin-left: 40px;
 }
 
 .social-links > li {
-    float: left;
-    padding: 7px;
-    background-color: black;
-    border-radius: 50%;
-    margin: 5px;
-    color: white;
+  float: left;
+  padding: 7px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 5px;
+  color: white;
 }
 
-.social-icons{
-    color: white;
+.social-icons {
+  color: white;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  justify-content: center;
 }
