@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 /* Global Css classes */
+
 .margins{
   margin: 30px;
 }
@@ -18,7 +19,23 @@
   border-radius: 10px;
   border: 1px solid black;
   padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   height: 30px;
+}
+
+.btn-next{
+  position: absolute;
+  bottom: 3%;
+  left: 85%;
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+  background-color: #FAA634;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  vertical-align: middle;
 }
 /* Non-global Css classes */
 header {
