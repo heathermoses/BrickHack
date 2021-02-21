@@ -1,7 +1,26 @@
 * {
   box-sizing: border-box;
 }
+/* Global Css classes */
+.margins{
+  margin: 30px;
+}
 
+.font-1{
+  font-family: "Roboto", sans-serif;
+}
+
+.font-2{
+  font-family: "Whitney", sans-serif;
+}
+
+.textbox{
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-top: 5px;
+  height: 30px;
+}
+/* Non-global Css classes */
 header {
   margin: 0px 50px 0px 50px;
 }
