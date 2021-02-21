@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 /* Global Css classes */
+.background-1{
+  display: block;
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+}
 
 .margins{
   margin: 30px;
@@ -27,15 +35,36 @@
 .btn-next{
   position: absolute;
   bottom: 3%;
-  left: 85%;
+  left: 82%;
   border-radius: 10px;
   height: 30px;
   border: none;
   background-color: #FAA634;
   text-align: center;
+  line-height: 5px;
   font-weight: bold;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   vertical-align: middle;
+}
+
+.btn{
+  position: absolute;
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+  background-color: #FAA634;
+  text-align: center;
+  line-height: 5px;
+  font-weight: bold;
+  padding: 20px 30px 20px 30px;
+  vertical-align: middle;
+  left:35%;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /* Non-global Css classes */
 header {
@@ -177,6 +206,7 @@ em > button {
 
 .sitemap{
     margin: 30px;
+    display: block;
 }
 .sitemap > a {
     text-decoration: none;
